@@ -8,4 +8,7 @@ How is the staging area different from the working directory and the repository?
 How can you use the staging area to make sure you have one commit per logical change?
 	All files which have been changed to constitute one logical change can be added to the staging area. Once the changes are done and the relevant files have been staged, the change can be committed. In this way, there is one commit per logical change.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Branches would be helpful if two versions of my project were same upto some logical point but different after it. So, upto that point, the changes that are common to both the versions can be committed in the master branch. Beyond that, two branches, each tracking one version of the project may be helpful.
+
 
