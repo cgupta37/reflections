@@ -1,7 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 	A repository is initialized in a .git directory. It needs to be done so that git can track the different versions of the files in a directory.
 
-
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	The staging area is and intermediate area between the repository, which tracks the commits, and the working directory, which simply holds all the files. The staging area is important because it lets you select which files are to be tracked together, as a single commit.
 
@@ -10,5 +9,8 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 	Branches would be helpful if two versions of my project were same upto some logical point but different after it. So, upto that point, the changes that are common to both the versions can be committed in the master branch. Beyond that, two branches, each tracking one version of the project may be helpful.
+
+How do the diagrams help you visualize the branch structure?
+	Diagrams make it easy to understand the commit branches in git because the layout of the branches becomes clear, that is, how many branches are there, where do they begin, and how many commits constitute any particular branch. A visual aid always has a greater impact on the mind than other means.
 
 
